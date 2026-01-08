@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "RorkMachineryInspection",
+    "slug": "rork-machinery-inspection",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyB2J_s2QR2hMQ7MZUcbG9bo-GOW0Qi4pq4"
+      },
+      "bundleIdentifier": "com.anonymous.rorkmachineryinspection"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyB2J_s2QR2hMQ7MZUcbG9bo-GOW0Qi4pq4"
+        }
+      },
+      "package": "com.anonymous.rorkmachineryinspection"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png",
+      "config": {
+        "googleMapsApiKey": "AlzaSyB2J_s2QR2hMQ7MZUcbG9bo-GOW0Qi4pq4"
+      }
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
